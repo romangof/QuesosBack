@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ammount: 9.99
+  date: 2016-09-02 11:04:02
+  description: MyString
+  customer_id: 
+
+two:
+  ammount: 9.99
+  date: 2016-09-02 11:04:02
+  description: MyString
+  customer_id: 
