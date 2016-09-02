@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  resources :products, only: [:index, :show, :create, :update, :destroy]
+
+  resources :customers, only: [:index, :show, :create, :update, :destroy]
+
+  resources :orders, only: [:index, :show, :create, :update, :destroy]
+
+  resources :order_details, only: [:index, :show, :create, :update, :destroy]
+
+  resources :payments, only: [:index, :show, :create, :update, :destroy]
+
   # Routing error
   match "*path", to: "application#render_404", via: :all
 
